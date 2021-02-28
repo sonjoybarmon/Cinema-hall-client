@@ -3,13 +3,13 @@ import ChangePassword from "./Components/Auth/ChangePassword";
 import ForgotPassword from "./Components/Auth/ForgotPassword";
 import Login from "./Components/Auth/Login";
 import SignUp from "./Components/Auth/SignUp";
-import NavMenu from "./Components/Share/NavMenu/NavMenu";
+import Home from "./Components/Home/Home";
   
   export default function Routes() {
     return (
         <Router>
             <Switch>
-                <Route exact path='/' component={NavMenu} />
+                <Route exact path='/' component={Home} />
 
 
             {/* auth pages route*/}
