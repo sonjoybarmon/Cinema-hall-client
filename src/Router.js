@@ -4,6 +4,7 @@ import ForgotPassword from "./Components/Auth/ForgotPassword";
 import Login from "./Components/Auth/Login";
 import SignUp from "./Components/Auth/SignUp";
 import Home from "./Components/Home/Home";
+import AddMovies from "./Components/Movies/AddMovies/AddMovies";
   
   export default function Routes() {
     return (
@@ -19,7 +20,7 @@ import Home from "./Components/Home/Home";
                 <Route path='/changePassword' component={ChangePassword}/>
 
 
-
+            <Route path='/addMovie' component={AddMovies}/>
 
                 <Route path='*'>
                     <div 

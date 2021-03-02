@@ -1,14 +1,12 @@
-import Router from './Router';
-import './App.css';
-import './App.scss'
-import NavMenu from './Components/Share/NavMenu/NavMenu';
-
-
+import Router from "./Router";
+import "./App.css";
+import "./App.scss";
+import ContextRecommended from "./Contexts/ContextRecommended";
 function App() {
   return (
-    <div >
+    <ContextRecommended>
       <Router />
-    </div>
+    </ContextRecommended>
   );
 }
 

@@ -1,27 +1,29 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  --gl-card-blur: 10px !important; 
+  --gl-card-blur: 10px !important;
   --gl-card-background: #c8baba12 !important;
 }
 
 ._2ZlhA {
   box-shadow: none !important;
 }
-.authBg{
+.authBg {
   background-color: #0d082a;
   width: 100%;
   height: 100vh;
   padding: 100px;
-  color : #ffffff;
+  color: #ffffff;
 }
-.inputError{
-  color : red;
+.inputError {
+  color: red;
 }
-.linkStyle{
+.linkStyle {
   text-decoration: none;
-  color : #ffffff;
+  color: #ffffff;
 }
-
-
+.linkStyle:hover {
+  text-decoration: none;
+  color: #c2c2da;
+}
