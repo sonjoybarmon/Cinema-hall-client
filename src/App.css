@@ -9,13 +9,7 @@
 ._2ZlhA {
   box-shadow: none !important;
 }
-.authBg {
-  background-color: #0d082a;
-  width: 100%;
-  height: 100vh;
-  padding: 100px;
-  color: #ffffff;
-}
+
 .inputError {
   color: red;
 }

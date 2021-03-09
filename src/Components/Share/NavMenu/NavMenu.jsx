@@ -14,7 +14,7 @@ const NavMenu = () => {
       {/* <div className='container'> */}
       <Container>
         <Navbar.Brand style={{ float: "left" }}>
-          <h2 style={{ color: "#909095" }}>SREE</h2>
+          <h2 style={{ color: "#909095" }}>CarBaZaR</h2>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse
@@ -29,25 +29,25 @@ const NavMenu = () => {
             </li>
             <li className="menu_li">
               <NavLink activeClassName="activeText" to="/" className="nav_li">
-                MOVIES
+                CARS
               </NavLink>
             </li>
             <li className="menu_li">
               <NavLink activeClassName="activeText" to="/" className="nav_li">
-                EVENTS
+                CONTACT US
               </NavLink>
             </li>
             <li className="menu_li">
               <NavLink activeClassName="activeText" to="/" className="nav_li">
-                OFFERS
+                ABOUT
               </NavLink>
             </li>
             <li className="menu_li">
               <NavLink activeClassName="activeText" to="/" className="nav_li">
-                AREA
+                DASHBOARD
               </NavLink>
             </li>
-            <li className="menu_li">
+            {/* <li className="menu_li">
               <NavLink
                 activeClassName="activeText"
                 to="/addMovie"
@@ -55,7 +55,7 @@ const NavMenu = () => {
               >
                 ADD MOVIE
               </NavLink>
-            </li>
+            </li> */}
             <li className="menu_li">
               <Button className="btn btn-primary">
                 <Link to="/login" className="linkStyle">
